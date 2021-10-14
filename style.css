@@ -1,0 +1,187 @@
+html {
+ 
+}
+
+body {
+  background-image: linear-gradient(to  bottom right, rgb(192, 224, 155), rgb(76, 92, 241));
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 1rem;
+  }
+
+.conteiner {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+.main2 {
+  min-height: 300px;
+  padding-top: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url(images/img-02.png);
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 30px;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card2 {
+  background-image: url(images/img-03.png);
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 30px;
+  min-height: 250px;
+  width: 30%;
+  
+}
+
+.card3 {
+  background-image: url(images/img-04.png);
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 30px;
+  width: 30%;
+ }
+
+.box1 {
+  width: 50%;
+   flex: 2;
+   padding-right: 100px;
+}
+
+.box2 {
+  width: 50%;
+  flex: 1;
+}
+
+h1{  
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.25rem;
+  margin-bottom: 0.9rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  margin: 25px;
+}
+.cards p {
+  font-size: 0.75rem;
+  line-height: 0.99rem;
+  margin: 10px 30px 20px 30px;
+}
+
+.cards a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.mybutton {
+  background-color: rgb(232, 255, 205);
+  color: rgb(6, 6, 61);
+  padding: 11px 25px ;
+  border-radius: 15px;
+}
+.mybutton:hover {
+  background-color: blue;
+  color: white;
+  transition-duration: 1s;
+} 
+
+a.mybutton {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.navbutton {
+  border: 1px solid white;
+  padding: 10px 25px;
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.testemunhos {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-bottom: 100px;
+
+}
+.tbox {
+  width: 27%;
+  padding: 10%;
+  border: 1px solid white;
+  margin-top: 45px;
+}
+.tbox p:last-of-type {
+  font-size: .6rem;
+  padding-left: 30px;
+  color: black;
+ }
+.dropdown {
+  display: none;
+  position:absolute; 
+  z-index: 1;
+  padding-top: 20px;
+  text-align: center;
+  
+}
+.navbutton:hover .dropdown {
+  display: block;
+}
+.dropdown .navbutton {
+  width: 90px;
+  background-color: rgb(155, 155, 182);
+}
+.inputwrapper {
+  margin-bottom: 20px;
+}
+input[type=text], input[type=email], textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+.newline {
+  display: block;
+  margin-bottom: 15px;
+}
+.margin-right-a   {
+   margin-right: 10px;
+}
+input[type=radio] {
+    margin-right: 10px;
+  }
+form {
+    margin: 40px 0px;
+  }
